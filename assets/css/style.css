@@ -1,0 +1,133 @@
+body {
+background-color: #fafafa;
+font-family: 'Raleway', sans-serif;
+}
+body{
+margin:0;
+}
+#header {
+background-color: #0c79c3;
+padding:20px;
+border-bottom: 4px solid #1089E2;
+margin-bottom:70px;
+}
+
+#header .top-header {
+padding-top: 20px;
+border-bottom: 4px solid #0c6eb6;
+padding-bottom: 20px;
+}
+.logo img {
+
+width:100%;
+}
+#footer_bottom {
+background-color: #0e639d;
+padding-top: 13px;
+padding-bottom: 17px;
+margin-top:70px;
+}
+#footer_bottom .copyright {
+text-align: center;
+font-size: 16px;
+color: #81ccff;
+}
+#footer_bottom .copyright a {
+color: #fff;
+font-size: 19px;
+}
+h3 a{
+   text-decoration: none !important;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: sans-serif;
+	    padding: 0px 12px 0 12px;
+}
+#link h3
+{
+	float: left;
+    padding: 0 8px 0 7px;
+}
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+     padding: 21px 24px 21px 24px;
+	 background: #f0f0f2;
+}
+.vehicle_form {
+  border: 0;
+  margin: 0;
+  padding: 42px 1px 0 1px;
+  text-align:center;
+  
+}
+.vehicle_form h2{
+	color: red;
+    font-weight: 700;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.vehicle_form input ,.vehicle_form select ,.vehicle_form textarea {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px 0px 10px 8px;
+    margin: 6px 0 12px;
+    width: 60%;
+	float:left;
+}
+
+.vehicle_form .btn{
+	background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float:none;
+  padding: 8px 16px;
+      width: 23%;
+}
+.vehicle_form label {
+    color: #7c7c80;
+    font-size: 17px;
+    float: left;
+    margin: 10px 0 0 7px;
+    width: 20%;
+}
+#tire_img{
+	background:none;
+	border:none;
+	box-shadow:none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 4px;
+  width:100%;
+}
+table,
+th,
+td {
+  border: 1px solid #cecfd5;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+.vehicle_form span{
+	width:19%;
+	    float: right;
+		color:red;
+    margin: 12px 0 0 0;
+}
